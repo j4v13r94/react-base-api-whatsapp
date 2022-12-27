@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(0, 0, 0, 0.833);
+}
+.input {
+    @apply w-full text-lg py-2 px-4 rounded-md outline-none ring-2 focus:ring-4 text-center;
+  }
+  .label {
+    @apply text-center font-bold py-1 text-orange-400;
+  }
+  
+  .btn {
+    @apply max-w-lg mx-auto bg-amber-300 py-4 px-4 rounded-md text-xl font-bold cursor-pointer hover:bg-red-400 hover:text-white transition;
+  }
